@@ -1,0 +1,173 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+header {
+    margin-top: 15px;
+}
+
+.list-nav a {
+    text-decoration: none;
+    color: rgb(0, 149, 208);
+}
+
+.list-nav a:hover {
+    color: rgb(11, 36, 198);
+
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.pr1-seccion {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(173, 202, 227);
+}
+
+.estadistica-cont {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: white;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 3px 3px 15px;
+    border-radius: 5px;
+}
+
+.estadistica-header {
+    background-color: #f08940;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.info-contenedor {
+    padding: 0 20px;
+}
+
+.estadistica-grafica {
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 2px solid rgba(186, 185, 185, 0.5);
+}
+
+.grafica-header {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.grafica-header span,
+.grafica-header p {
+    margin-right: 10px;
+}
+
+.grafica-header span {
+    width: 20px;
+    height: 5px;
+    background-color: rgb(250, 39, 39);
+}
+
+.grafica-header span:nth-child(3) {
+    background-color: rgb(39, 86, 227);
+}
+
+.grafica-barras {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 250px;
+}
+
+.cont-barras {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.cont-barras div {
+    width: 100%;
+}
+
+.views {
+    background-color: rgb(250, 39, 39);
+}
+
+.views-1 {
+    height: 70%;
+}
+
+.views-2 {
+    height: 60%;
+}
+
+.views-3 {
+    height: 65%;
+}
+
+.views-4 {
+    height: 56%;
+}
+
+.views-5 {
+    height: 84%;
+}
+
+.views-6 {
+    height: 80%;
+}
+
+.views-7 {
+    height: 88%;
+}
+
+.purchases {
+    background-color: rgb(39, 86, 227);
+}
+
+.purchases-1 {
+    height: 38%
+}
+
+.purchases-2 {
+    height: 40%;
+}
+
+.purchases-3 {
+    height: 34%;
+}
+
+.purchases-4 {
+    height: 28%;
+}
+
+.purchases-5 {
+    height: 56%;
+}
+
+.purchases-6 {
+    height: 48%;
+}
+
+.purchases-7 {
+    height: 60%;
+}
+
+.grafica-dias {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    color: rgb(116, 116, 116);
+    border-top: 2px solid rgba(186, 185, 185, 0.5);
+}
