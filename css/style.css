@@ -16,22 +16,45 @@ body {
     background: linear-gradient(90deg, rgba(0, 34, 68, 1) 0%, rgba(3, 68, 148, 1) 100%);
 }
 
-a {
-    text-decoration: none;
-    color: rgb(10, 108, 255);
+.navbar {
+    width: 100%;
+    background-color: rgb(113, 118, 255);
+    padding: 1px;
+    min-height: 70px;
 }
 
-header {
-    margin-top: 15px;
+.navbar-toggler {
+    background: rgb(231, 144, 13);
+    border: none;
+    outline: none;
 }
 
-.list-nav a {
-    text-decoration: none;
+.navbar-expand-md {
+    padding-right: 2vh;
+}
+
+.navbar-collapse {
+    flex-direction: row-reverse;
+    flex-grow: 0;
+}
+
+.nav-link {
+    padding: 1rem 1.2rem;
+    font-size: 1.4rem;
+    position: relative;
+    color: #000;
+    transition: all .4s;
+}
+
+.nav-link:hover {
+    background: rgb(0, 34, 68);
     color: #fff;
 }
 
-.list-nav a:hover {
-    background-color: #fff;
-    color: rgb(0, 34, 68);
-    transition: .4s;
+button {
+    padding: 1.2rem 5rem;
+}
+
+.proyectos-contenedor {
+    margin: 80px 2vh 0;
 }
