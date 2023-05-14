@@ -1,0 +1,179 @@
+/* Reset */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    top: 0;
+}
+
+body {
+    background-image: url(./img/gif-background.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    position: fixed;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    transition: all .4s;
+}
+
+nav ul li a:hover {
+    background-color: #3bf;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.cont-form {
+    background-color: #fff;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 3rem;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 1.5em;
+    text-align: center;
+}
+
+input {
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.cont-input {
+    margin-bottom: .7rem;
+    border-bottom: 1px solid #777;
+    padding-bottom: .2rem;
+}
+
+.cont-input:hover {
+    border-bottom: 1px solid #3bf;
+}
+
+.cont-input i {
+    font-size: 1rem;
+    margin-right: .5rem;
+}
+
+.cont-forget {
+    display: flex;
+    justify-content: end;
+    padding-bottom: .5rem;
+}
+
+.cont-forget a {
+    text-decoration: none;
+    color: #05f;
+}
+
+button {
+    background: rgb(0, 92, 218);
+    background: linear-gradient(50deg, rgb(91, 134, 194) 0%, rgb(54, 173, 90) 100%);
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    padding: .4rem 0;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+button:hover {
+    color: black;
+}
+
+.formBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formBottom p {
+    margin: 0;
+    margin-top: 1.2rem;
+}
+
+.flexUl {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+    margin-top: 0;
+}
+
+.flexUl a {
+    text-decoration: none;
+    margin: 0 .1rem;
+}
+
+.flexUl li i {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-brands {
+    margin-top: 1rem;
+    cursor: pointer;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: #3bf;
+}
+
+.fa-facebook-f {
+    background-color: #05f;
+}
+
+.fa-twitter {
+    background-color: #1D9BF0;
+}
+
+.fa-google {
+    background-color: orangered;
+}
+
+#signUp {
+    cursor: pointer;
+    margin-bottom: 1.2rem;
+    margin-top: .5rem;
+}
+
+#signUp:hover {
+    color: #05f;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Proyectos</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="cont-form">
+            <form>
+                <h2>Login</h2>
+                <div class="cont-nombre">
+                    <label class="label-usuario" for="usuario">Usuario</label>
+                    <div class="cont-input cont-input-nombre">
+                        <i class="fa-solid fa-user"></i><input type="text" name="usuario" id="username"
+                            placeholder="Ingresa tu nombre">
+                    </div>
+                </div>
+                <div class="cont-contrasena">
+                    <label for="label-contrasena">Contraseña</label>
+                    <div class="cont-input cont-input-contrasena">
+                        <i class="fa-solid fa-key"></i><input type="password" name="contrasena" id="password"
+                            placeholder="Ingresa tu contraseña">
+                    </div>
+                </div>
+                <div class="cont-forget">
+                    <a href="" target="_blank" rel="noopener noreferrer">Forget password?</a>
+                </div>
+                <button type="submit">Enviar</button>
+                <div class="formBottom">
+                    <p>O Inicia Sesión usando</p>
+                    <ul class="flexUl">
+                        <a href="https://www.faceboook.com" target="_blank">
+                            <li><i class="fa-brands fa-facebook-f"></i></li>
+                        </a>
+                        <a href="https://www.twitter.com" target="_blank">
+                            <li><i class="fa-brands fa-twitter"></i></li>
+                        </a>
+                        <a href="https://www.google.com" target="_blank">
+                            <li><i class="fa-brands fa-google"></i></li>
+                        </a>
+                    </ul>
+                    <p class="signUp">O Inicia Sesión usando</p>
+                    <p id="signUp">INICIA SESIÓN</p>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
